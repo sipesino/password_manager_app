@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ToolsScreen extends StatefulWidget {
-  ToolsScreen({Key? key}) : super(key: key);
+  const ToolsScreen({Key? key}) : super(key: key);
 
   @override
   _ToolsScreenState createState() => _ToolsScreenState();

@@ -12,8 +12,8 @@ class VaultScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Column(
-          children: const [
+        const Column(
+          children: [
             Favorites(),
             AccountList(),
           ],
